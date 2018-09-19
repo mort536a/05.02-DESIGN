@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/mexico-flag-icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/mexico-flag-icon-16.png">
+    <link rel="stylesheet" href="style2.css">
+    <title> Texico </title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Texico Bistro</h1>
+        <img id="logo" src="imgs/logo.png" alt="logo">
+
+
+
+
+        <!-- NAVIGATION -->
+
+        <nav>
+            <button id="hoved-menu">Menu Kortet</button>
+
+        </nav>
+
+        <!-- NAVIGATION END -->
+        <script>
+            document.querySelector("#hoved-menu").addEventListener("click", goToForside);
+
+            function goToForside() {
+                location.href = "menukort.html";
+            }
+        </script>
+
+    </header>
+
+    <section id="forsidebillede">
+        <section id="splash">
+            <picture>
+                <source media="(min-width: 1920px)" srcset="imgs/forside/forside.jpg">
+
+
+
+                <source media="(min-width: 1024px)" srcset="imgs/forside/tablet_landscapes.jpg">
+
+
+
+                <source media="(min-width: 768px)" srcset="imgs/forside/tablet_portraits.jpg">
+
+
+
+                <source media="(min-width: 627px)" srcset="imgs/forside/mobile_landscapes.jpg">
+
+
+
+                <img src="imgs/forside/mobile_portraits.jpg" alt="mobilhaha1">
+
+            </picture>
+        </section>
+    </section>
+
+
+    <button id="forsideKnap">Menukort</button>
+    <button id="forsideKontakt">Kontakt os  </button>
+    <button id="forsideGalleri">Galleri</button>
+
+    <script>
+        document.querySelector("#forsideKnap").addEventListener("click", goToForside);
+
+        function goToForside() {
+            location.href = "menukort.html";
+        }
+        document.querySelector("#forsideKontakt").addEventListener("click", goToKontakt);
+
+        function goToKontakt() {
+            location.href = "index.html";
+        }
+    </script>
+
+    <footer>
+
+        <div class="information">
+
+            <p class="adress"><b>Addresse:</b><br> Grønnegade 97<br> 1234 København K</p>
+
+            <p class="schedule"><b>Åbningstider:</b><br> Mandag - fredag 10:30 - 22:00 <br>Lørdag 12:00 - 23:00</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

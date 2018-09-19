@@ -1,0 +1,23 @@
+id,kategori,navn,beskrivelse,pris,billede
+1,forretter,Hjemmelavet Suppe,Ny hjemmelavet supper hver uge,79,hjemmelavet-suppe
+2,forretter,Tortilla Chips & salsa,Hjemmelavet majstortillas serveres med hjemmelavet salsa,64,tortilla-chips-med-salsa
+3,forretter,Nachos Con Salsa,"Sprøde tortilla chips gratineret med cheddar ost, jalapenos og serveres med salsa",79,Nachos-con-salsa
+4,forretter,Mexicansk rejecoctail,Friteret majstortilla fyldt med kæmperejer og hjemmelavet mango salsa,99,mexicansk-rejecocktail
+5,forretter,Chicken wings,honning og chili marineret kyllingevinger serveres med tortilla chips gratineret med cheddar ost serveres direkte fra ovnen med salsa & creme fraiche,85,chicken-wings
+6,forretter,Chili con queso,"Hjemmelavet majstortilla serveret med sauterede skalotte løg, tomater og jalapenos vendt i smeltet cheddar ost",85,chili-con-queso
+7,forretter,Poppers,"Paneret jalapenos fyldt med cheddar ost, gratineret med majstortillas serveres direkte fra ovn med salsa & creme fraiche",89,popper
+8,forretter,Grillede kæmperejer,"Grillede chili-lime marinerede kæmperejer flameret med hvidvin, anrettet på sprød salat",99,grillede-kæmpereje
+9,hovedretter,Pollo Picante,"Mexicansk kylling serveres med majs tortillas, mango salsa toppet med cheddarost",179,pollo-picante
+10,hovedretter,Burrito,"cheddarost gratineret hvedemelstortilla fyldt med kylling cheddarost, jalapenos, bønner og toppet med cremefraiche, ris og krydret sauce.",169,burrito
+11,hovedretter,Chimichanga,"friteret & indbagt hvedemelstortilla fyldt med kylling, cheddarost, jalapenos, bønner, gratineret i ovn toppet med guacamole, ris og krydret sauce",179,chimichange
+12,hovedretter,Vegetar Enchiladas,"gratineret majs tortillas fyldt med sauteerede artiskokker, skalotte løg, tomater, jalapenos og friske korianer i en fløde sauce, serveres med mexicansk ris og enchilada sauce",149,vegetar-enchilada
+13,hovedretter,Chicken beef enchiladas,"majs tortillas fyldt med kylling, revet cheddar ost, gratineret i ovn toppet med cheddarost og creme fraiche, serveres med ris og enchilada sauce",159,chicken-beef-enchilada
+14,hovedretter,husets salat,"200g marineret kylling bryst anrettet på sprød salat med oliven, tomater og jalapenos toppet med cheddar ost, serveres med salsa og creme fraiche",179,salat
+15,hovedretter,kæmperejer fajitas,"hvidløs marinerede kæmperejer flamberet i hvidvin, sauteret med to forskellige løg, peber frugter, jalapenos, toppet med koriander, serveres med cheddar ost, salsa, guacamole, cremefraiche og hvedemels tortillas",249,prawn-fajitas
+16,hovedretter,beef fajitas,"rødvinsmarineret oksemørbrad serveres med sautrede røde/grønne peberfrugter, to forskellige løg, toppet med koriander, serveres med cheddar ost og tortillas",239,beef-fajitas
+17,hovedretter,chicken fajitas,"strimler af chili marineret kyllingebryst, sauteret med mexicanske krydderier, røde og grønne peberfrugter. to forskellige løg. toppet med korianer, cheddar ost, hvedemels tortillas",189,chicken-fajitas
+18,hovedretter,Lomo con Papas,"grillet oksemørbrad i medaljoner, kryderes, serveres med cheddar ost, gratineret kartofler og en delikat fløde sauce",269,lomo-con-papa
+19,desserter,Husets specialitet,"friteret banan drysset med sukker, kanel dryppet med akacie, serveres med vanilie is og frugt",89,friteret-banan
+20,desserter,Mexicansk is,"cremet vanilie is med tequila og kahlua, serveres med frugt",89,is
+21,desserter,Bananasplit,"modene bananer, serveres med vanilie is, chokolade sauce, flødeskum og frugter",89,bananasplit
+22,desserter,bunelos,"små lune, sprøde pandekager drysset med sukker og kanel, serveres med cremet vanilie is og sæsonens frugter",89,bunelos

@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "kategori": "forretter",
+        "navn": "Hjemmelavet Suppe",
+        "beskrivelse": "Ny hjemmelavet supper hver uge",
+        "pris": 79,
+        "billede": "hjemmelavet-suppe"
+  },
+    {
+        "id": 2,
+        "kategori": "forretter",
+        "navn": "Tortilla Chips & salsa",
+        "beskrivelse": "Hjemmelavet majstortillas serveres med hjemmelavet salsa",
+        "pris": 64,
+        "billede": "tortilla-chips-med-salsa"
+  },
+    {
+        "id": 3,
+        "kategori": "forretter",
+        "navn": "Nachos Con Salsa",
+        "beskrivelse": "Sprøde tortilla chips gratineret med cheddar ost, jalapenos og serveres med salsa",
+        "pris": 79,
+        "billede": "Nachos-con-salsa"
+  },
+    {
+        "id": 4,
+        "kategori": "forretter",
+        "navn": "Mexicansk rejecoctail",
+        "beskrivelse": "Friteret majstortilla fyldt med kæmperejer og hjemmelavet mango salsa",
+        "pris": 99,
+        "billede": "mexicansk-rejecocktail"
+  },
+    {
+        "id": 5,
+        "kategori": "forretter",
+        "navn": "Chicken wings",
+        "beskrivelse": "Honning og chili marineret kyllingevinger serveres med tortilla chips gratineret med cheddar ost serveres direkte fra ovnen med salsa & creme fraiche",
+        "pris": 85,
+        "billede": "chicken-wings"
+  },
+    {
+        "id": 6,
+        "kategori": "forretter",
+        "navn": "Chili con queso",
+        "beskrivelse": "Hjemmelavet majstortilla serveret med sauterede skalotte løg, tomater og jalapenos vendt i smeltet cheddar ost",
+        "pris": 85,
+        "billede": "chili-con-queso"
+  },
+    {
+        "id": 7,
+        "kategori": "forretter",
+        "navn": "Poppers",
+        "beskrivelse": "Paneret jalapenos fyldt med cheddar ost, gratineret med majstortillas serveres direkte fra ovn med salsa & creme fraiche",
+        "pris": 89,
+        "billede": "popper"
+  },
+    {
+        "id": 8,
+        "kategori": "forretter",
+        "navn": "Grillede kaemperejer",
+        "beskrivelse": "Grillede chili-lime marinerede kaemperejer flameret med hvidvin, anrettet paa sproed salat",
+        "pris": 99,
+        "billede": "grillede-kæmpereje"
+  },
+    {
+        "id": 9,
+        "kategori": "hovedretter",
+        "navn": "Pollo Picante",
+        "beskrivelse": "Mexicansk kylling serveres med majs tortillas, mango salsa toppet med cheddarost",
+        "pris": 179,
+        "billede": "pollo-picante"
+  },
+    {
+        "id": 10,
+        "kategori": "hovedretter",
+        "navn": "Burrito",
+        "beskrivelse": "Cheddarost gratineret hvedemelstortilla fyldt med kylling cheddarost, jalapenos, boenner og toppet med cremefraiche, ris og krydret sauce.",
+        "pris": 169,
+        "billede": "burrito"
+  },
+    {
+        "id": 11,
+        "kategori": "hovedretter",
+        "navn": "Chimichanga",
+        "beskrivelse": "friteret & indbagt hvedemelstortilla fyldt med kylling, cheddarost, jalapenos, boenner, gratineret i ovn toppet med guacamole, ris og krydret sauce",
+        "pris": 179,
+        "billede": "chimichange"
+  },
+    {
+        "id": 12,
+        "kategori": "hovedretter",
+        "navn": "Vegetar Enchiladas",
+        "beskrivelse": "gratineret majs tortillas fyldt med sauteerede artiskokker, skalotte loeg, tomater, jalapenos og friske korianer i en floede sauce, serveres med mexicansk ris og enchilada sauce",
+        "pris": 149,
+        "billede": "vegetar-enchilada"
+  },
+    {
+        "id": 13,
+        "kategori": "hovedretter",
+        "navn": "Chicken beef enchiladas",
+        "beskrivelse": "majs tortillas fyldt med kylling, revet cheddar ost, gratineret i ovn toppet med cheddarost og creme fraiche, serveres med ris og enchilada sauce",
+        "pris": 159,
+        "billede": "chicken-beef-enchilada"
+  },
+    {
+        "id": 14,
+        "kategori": "hovedretter",
+        "navn": "husets salat",
+        "beskrivelse": "200g marineret kylling bryst anrettet paa sproed salat med oliven, tomater og jalapenos toppet med cheddar ost, serveres med salsa og creme fraiche",
+        "pris": 179,
+        "billede": "salat"
+  },
+    {
+        "id": 15,
+        "kategori": "hovedretter",
+        "navn": "kaemperejer fajitas",
+        "beskrivelse": "hvidloeg marinerede kaemperejer flamberet i hvidvin, sauteret med to forskellige loeg, peber frugter, jalapenos, toppet med koriander, serveres med cheddar ost, salsa, guacamole, cremefraiche og hvedemels tortillas",
+        "pris": 249,
+        "billede": "prawn-fajitas"
+  },
+    {
+        "id": 16,
+        "kategori": "hovedretter",
+        "navn": "beef fajitas",
+        "beskrivelse": "roedvinsmarineret oksemoerbrad serveres med sautrede roede/groenne peberfrugter, to forskellige loeg, toppet med koriander, serveres med cheddar ost og tortillas",
+        "pris": 239,
+        "billede": "beef-fajitas"
+  },
+    {
+        "id": 17,
+        "kategori": "hovedretter",
+        "navn": "chicken fajitas",
+        "beskrivelse": "strimler af chili marineret kyllingebryst, sauteret med mexicanske krydderier, roede og groenne peberfrugter. to forskellige loeg. toppet med korianer, cheddar ost, hvedemels tortillas",
+        "pris": 189,
+        "billede": "chicken-fajitas"
+  },
+    {
+        "id": 18,
+        "kategori": "hovedretter",
+        "navn": "Lomo con Papas",
+        "beskrivelse": "grillet oksemoerbrad i medaljoner, kryderes, serveres med cheddar ost, gratineret kartofler og en delikat floede sauce",
+        "pris": 269,
+        "billede": "lomo-con-papa"
+  },
+    {
+        "id": 19,
+        "kategori": "desserter",
+        "navn": "Husets specialitet",
+        "beskrivelse": "friteret banan drysset med sukker, kanel dryppet med akacie, serveres med vanilie is og frugt",
+        "pris": 89,
+        "billede": "friteret-banan"
+  },
+    {
+        "id": 20,
+        "kategori": "desserter",
+        "navn": "Mexicansk is",
+        "beskrivelse": "cremet vanilie is med tequila og kahlua, serveres med frugt",
+        "pris": 89,
+        "billede": "is"
+  },
+    {
+        "id": 21,
+        "kategori": "desserter",
+        "navn": "Bananasplit",
+        "beskrivelse": "modene bananer, serveres med vanilie is, chokolade sauce, floedeskum og frugter",
+        "pris": 89,
+        "billede": "bananasplit"
+  },
+    {
+        "id": 22,
+        "kategori": "desserter",
+        "navn": "bunelos",
+        "beskrivelse": "smaa lune, sproede pandekager drysset med sukker og kanel, serveres med cremet vanilie is og saesonens frugter",
+        "pris": 89,
+        "billede": "bunelos"
+  }
+]

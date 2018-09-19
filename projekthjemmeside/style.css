@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Matador';
+    src: url('Matador.woff2') format('woff2'),
+    url('Matador.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+
+    margin: 0;
+
+}
+
+
+/* ---------- GRID ---------- */
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    grid-template-rows: 500px auto 200px;
+
+}
+
+.borderimg {
+    border: solid 2px green;
+}
+
+#kurv {
+    display: none;
+    position: fixed;
+    max-height: 90px;
+    right: 55px;
+    top: 650px;
+
+}
+
+#kurv:hover {
+    cursor: pointer;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+
+    grid-column-end: span 6;
+
+    padding: 50px;
+
+    background-image: url(imgs/aztec_idols_slot_bg.jpg);
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    background-size: 1600px;
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+header h1 {
+
+    color: black;
+
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 80px 40px 80px 40px;
+
+    font-size: 3em;
+
+    font-family: 'Matador', serif;
+
+    text-transform: uppercase;
+
+}
+
+header img {
+    float: right;
+    width: 225px;
+    height: 225px;
+    position: relative;
+    right: 110px;
+    top: -280px;
+}
+
+
+
+
+
+/* ---------- NAV ---------- */
+
+nav {
+
+    text-align: center;
+
+    margin-top: 125px;
+
+}
+
+
+
+nav button {
+
+    font-size: 0.9em;
+
+    font-family: 'Matador', sans-serif;
+
+    padding: 15px 20px 15px 20px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border: 1px solid black;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+nav button:hover {
+
+    background-color: #1cb0d4;
+    cursor: pointer;
+
+}
+
+
+
+/* ---------- MENU ---------- */
+
+.retContainer {
+
+    display: grid;
+
+    background: #eeeeee;
+
+    grid-column-end: span 6;
+
+    grid-template-columns: repeat(2, 2fr);
+
+    grid-gap: 20px;
+
+    width: 960px;
+
+    margin: 0 auto;
+
+
+}
+
+
+
+.retContainer h2 {
+
+    font-family: 'Matador', serif;
+
+    font-size: 1.em;
+
+    letter-spacing: 0.1em;
+
+}
+
+
+
+.retContainer p {
+
+    font-family: sans-serif;
+
+    font-size: .8em;
+
+    letter-spacing: 0.5px;
+
+}
+
+#gridKnap:hover {
+    cursor: pointer;
+    background-color: #1cb0d4;
+}
+
+
+
+article {
+
+    background: #fff;
+
+    padding: 25px;
+
+}
+
+
+
+article .pris {
+
+    font-size: 1.2em;
+
+    text-transform: uppercase;
+
+}
+
+
+
+article .kategori,
+
+.id,
+
+.langbeskrivelse,
+
+.oprindelsesregion {
+
+    display: none;
+
+}
+
+
+
+article img {
+
+    max-width: 100%;
+    max-height: 200px;
+
+
+}
+
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    background: #d6cfcf;
+
+    grid-column-end: span 6;
+
+    text-align: center;
+
+
+}
+
+
+
+footer .information {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    padding-top: 30px;
+
+}
+
+
+
+footer .adress {
+
+    grid-column-start: 2;
+
+    color: #666666;
+
+    font-family: sans-serif;
+    font-size: 1.2em;
+
+}
+
+
+
+footer .schedule {
+
+    grid-column-start: 3;
+
+    color: #666666;
+
+    font-family: sans-serif;
+
+    font-size: 1.2em;
+
+}
+
+@media screen and (max-width: 480px) {
+    .retContainer {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .retContainer h2 {
+        width: 240px;
+    }
+    .retContainer p {
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 1308px) {
+    #logo {
+        display: none;
+    }
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/mexico-flag-icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/mexico-flag-icon-16.png">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <title>Texico Menukort</title>
+
+</head>
+
+
+
+<body>
+
+
+
+    <!-- OVERALL GRID -->
+
+    <div class="grid">
+
+
+
+        <!-- HEADER -->
+
+        <header>
+
+            <h1>Texico Bistro</h1>
+            <img id="logo" src="imgs/logo.png" alt="logo">
+
+            <!-- NAVIGATION -->
+
+            <nav>
+                <button id="hoved-menu">Tilbage til hovedmenu</button>
+                <button class="menu-item" data-kategori="alle">Alle</button>
+
+                <button class="menu-item" data-kategori="forretter">Forretter</button>
+
+                <button class="menu-item" data-kategori="hovedretter">Hovedretter</button>
+
+                <button class="menu-item" data-kategori="desserter">Desserter</button>
+
+
+
+
+            </nav>
+
+            <!-- NAVIGATION END -->
+            <script>
+                document.querySelector("#hoved-menu").addEventListener("click", goToForside);
+
+                function goToForside() {
+                    location.href = "index.html";
+                }
+            </script>
+
+        </header>
+
+        <!-- HEADER END -->
+
+
+
+
+
+        <!-- MENU -->
+
+        <main class="retContainer"></main>
+
+        <template class="retTemplate">
+
+            <article class="ret" data-id="">
+
+                <h2 class = "overskrift" data-navn >---</h2>
+
+                <img class = "billede" data-billede src = ".---" alt = "---">
+
+                <p class="beskrivelse" data-beskrivelse>---</p>
+
+                <p>Pris: <span class="pris" data-pris >---</span> DKK , - <button id="gridKnap">Læg i kurv</button> </p>
+
+            </article>
+
+        </template>
+
+        <!-- MENU END -->
+
+
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <div class="information">
+
+                <p class="adress"><b>Addresse:</b><br> Grønnegade 97<br> 1234 København K</p>
+
+                <p class="schedule"><b>Åbningstider:</b><br> Mandag - fredag 10:30 - 22:00 <br>Lørdag 12:00 - 23:00</p>
+
+            </div>
+
+        </footer>
+
+        <!-- FOOTER END -->
+
+
+
+    </div>
+
+    <!-- OVERALL GRID END -->
+
+
+
+    <!-- MODAL VIEW -->
+
+    <!--
+    <div id="modal">
+
+        <div id="modal-content">
+
+            <button>Luk</button>
+
+            <h2 class="modal-navn">TEST</h2>
+
+            <img class="modal-billede" src="/imgs/large/" alt="">
+
+            <p class="modal-langbeskrivelse"></p>
+
+            <p class="modal-pris"></p>
+
+        </div>
+
+    </div>
+-->
+
+
+
+    <!-- MODAL VIEW END -->
+
+    <img id="kurv" src="imgs/shoppingcart.png">;
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
